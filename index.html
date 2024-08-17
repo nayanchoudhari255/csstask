@@ -10,75 +10,35 @@
            width: 100%;
        background-color: coral;
        position: fixed;
+      height: 60px;
        top: 0;
+       padding: 10px;
            
         }
         h1{
           text-align: center; 
           
         }
-        .img{
-            position: relative;
-        }
-        #i1{
-            position: absolute;
-            top: 50vh;
-            left: 80vh;
-          
-        }
-        .i2{
-            position: relative;
-        }
-      
-        #sm{
-            position: absolute;
-            z-index: 1;
-            top: 20vh;
-            left: 10px;
-        }
-        #vk{
-            position: absolute;
-            z-index: 0;
-            top: 20vh;
-            left: 180vh;
-        }
-        #sm1{
-            position: absolute;
-            z-index: -0;
-           top: 60vh;
-           left: 10px;
-        }
-        #vk1{
-            position: absolute;
-            z-index: -1;
-            top: 60vh;
-            left: 180vh;
-        }
-        #rm{
-            position: absolute;
-            z-index: -2;
-            top: 120vh;
-            left: 10px;
-        }
-        #se{
-            position: absolute;
-            z-index: -3;
-            top: 120vh;
-            left: 180vh;
-        }
-        #rm1{
-            position: absolute;
-            z-index: -4;
-            top: 160vh;
-            left: 10px;
-        }
-        #se1{
-            position: absolute;
-            z-index: -5;
-            top: 160vh;
-            left: 180vh;
-        }
-        
+       
+         #i1{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 40px;
+         }
+         .img{
+            margin-top: 80px;
+         }
+         .l{
+          margin-top: 20px;
+         }
+         .r{
+            float: right;
+            margin-top: 20px;
+         }
+         .d2{
+            margin-top: 50px;
+         }
         
     </style>
 </head>
@@ -86,33 +46,39 @@
     <!-- position and z-index -->
      <header>
      
-     <h1>   Hello welcome</h1>
-     
+   <h1>Hello welcome</h1>
      </header>
     
 
      <div class="img">
-       <div id="i1">
-        <img src="allu.jpg" alt="" width="400px" height="500px" style="border-radius: 15px;">
-       </div>
-       <div class="i2">
-        <img id="sm" src="m1.jpeg" alt="" height="200px" width="200px">
-        <img id="vk" src="vk.jpg" alt="" height="200px" width="200px">
+       
+       
+      
+       
+       <div>
+        <img class="l" src="m1.jpeg" alt="" height="200px" width="200px">
+        <img class="r" src="vk.jpg" alt="" height="200px" width="200px">
      
-    
-        <img id="sm1" src="m1.jpeg" alt="" height="200px" width="200px">
-        <img id="vk1" src="vk.jpg" alt="" height="200px" width="200px">
-
-        
-        <img id="rm" src="ram.jpg" alt="" height="200px" width="200px">
-        <img id="se" src="sea.jpg" alt="" height="200px" width="200px">
-
-        <img id="rm1" src="ram.jpg" alt="" height="200px" width="200px">
-        <img id="se1" src="sea.jpg" alt="" height="200px" width="200px">
-       
-       
-       
     </div>
+    <div>
+        <img  class="l" src="m1.jpeg" alt="" height="200px" width="200px">
+        <img class="r" src="vk.jpg" alt="" height="200px" width="200px">
+</div>
+<div id="i1">
+    <img src="allu.jpg" alt="" width="400px" height="400px" style="border-radius: 15px;">
+</div>
+
+<div class="d2">
+        
+        <img  class="l" src="ram.jpg" alt="" height="200px" width="200px">
+        <img class="r" src="sea.jpg" alt="" height="200px" width="200px">
+</div>
+<div>
+        <img  class="l" src="ram.jpg" alt="" height="200px" width="200px">
+        <img class="r" src="sea.jpg" alt="" height="200px" width="200px">
+       
+       
+  
      </div>
 </body>
 </html>
